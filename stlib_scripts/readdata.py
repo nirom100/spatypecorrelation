@@ -12,7 +12,7 @@ def main():
             countries.append((line.split(",")[0],line.split(",")[1]))
     rl.close()
 
-    with open("spaselection.txt", "r") as spa:
+    with open("../src/spaselection.txt", "r") as spa:
         for line in spa:
             line = line.rstrip()
             sequences.append((line.split(",")[0],line.split(",")[1]))

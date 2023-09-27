@@ -28,7 +28,7 @@ def spatype_selection():
 
 
 def print_spatypes(line):
-    with open('spaselection.txt', 'a') as ss:
+    with open('../src/spaselection.txt', 'a') as ss:
         print(line, end="", file = ss)
     ss.close()
 

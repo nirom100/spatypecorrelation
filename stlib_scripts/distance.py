@@ -26,7 +26,7 @@ def main():
 #read spatypes to create distancematrix with same order
 def read_spatypes():
     spatypes = []
-    with open('spaselection.txt') as spa:
+    with open('../src/spaselection.txt') as spa:
         for line in spa:
             spatype = line.split(",")[0]
             spatypes.append(spatype)

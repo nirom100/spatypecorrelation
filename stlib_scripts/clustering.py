@@ -66,7 +66,7 @@ def read_distance(filename):
 #get labels of spatypes
 def get_labels(i):
     spatypes = []
-    with open("spaselection.txt") as spa:
+    with open("../src/spaselection.txt") as spa:
         for line in spa:
             spatype = line.split(",")[0]
             spatypes.append(spatype)
@@ -125,7 +125,7 @@ def get_locdata():
     index = []
     spatypes = []
 
-    with open("spaselection.txt") as spa:
+    with open("../src/spaselection.txt") as spa:
         for line in spa:
             spatype = line.split(",")[0]
             spatypes.append(spatype)
